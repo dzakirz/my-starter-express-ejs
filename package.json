@@ -1,0 +1,26 @@
+{
+  "name": "ejs-express",
+  "version": "1.0.0",
+  "description": "Learn EJS and Express",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon application/index.js",
+    "dev:tailwind": "npx tailwindcss -i application/public/css/tailwind/index.css -o application/public/css/index.css --watch"
+  },
+  "author": "Dzaki Rozaan",
+  "license": "MIT",
+  "dependencies": {
+    "@prisma/client": "^4.11.0",
+    "bcrypt": "^5.1.0",
+    "dotenv": "^16.0.3",
+    "ejs": "^3.1.9",
+    "envalid": "^7.3.1",
+    "express": "^4.18.2",
+    "express-ejs-layouts": "^2.5.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.21",
+    "prisma": "^4.11.0",
+    "tailwindcss": "^3.2.7"
+  }
+}
